@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 * {
   margin: 0;
   padding: 0;
@@ -174,4 +175,127 @@ footer .Copyright{
   font-family: cursive;
   color: white;
   text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: linear-gradient(150deg, #f731db, #3BA9E6 100%);
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 25px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #F7E077;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.about-member{
+  color: #f3eac2;
+}
+
+#socialMedia {
+  background-color: #1C6CB5;
+  color: white;
+}
+
+.social-media {
+  color: white;
+}
+
+#socialMedia {
+  padding: 100px;
+}
+
+#Footer {
+  background-color: #1C2331;
+  color: white;
+  padding: 0 50px;
+}
+
+#line1 {
+  background-color:#1C6CB5;
+  height: 1px;
+}
+
+#line2 {
+  background-color:#1C6CB5;
+  height: 1px;
+}
+
+#line3 {
+  background-color:#1C6CB5;
+  height: 1px;
+}
+
+#line4 {
+  background-color:#1C6CB5;
+  height: 1px;
+}
+
+#Copyright {
+  background-color: #161C27;
+  color: white;
+}
+
+.sizedBox {
+  height: 30px;
 }
