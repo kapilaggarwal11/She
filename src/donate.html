@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>She</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            h1 {
+                text-align: center;
+            }
+            table {
+                margin: auto;
+            }
+            th {
+                padding: 40px;
+            }
+            a {
+                text-align: center;
+            }
+            button {
+                padding: 10px 15px;
+                border-radius: 2px;
+                border: none;
+                cursor: pointer;
+                margin-left: 40%;
+                width: 20%;
+                border-radius: 2px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                background-color: #03a9f4;
+            }
+        </style>
+    </head>
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Web 3 Demo</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-     <style>
+    <body>
+        <h1>Total appeals</h1>
 
-     h1{
-       text-align: center;
-     }
-     table{
-       margin: auto;
-     }
-     th{
-       padding: 40px;
-     }
-     a{
-       text-align: center;
-     }
-     button{
-        padding: 10px 15px;
-        border-radius: 2px;
-        border: none;
-        cursor: pointer;
-        margin-left:40%;
-        width: 20%;
-        border-radius: 2px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        background-color:#03a9f4;
-
-     }
-
-     </style>
-
-</head>
-
-<body>
-   
-      <h1>Total appeals</h1>
-
-            <table class="table">
-
-              <thead>
+        <table class="table">
+            <thead>
                 <tr>
-
-                  <th scope="col">Appeal id</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Occupation</th>
-                  <th scope="col">Home address</th>
+                    <th scope="col">Appeal id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Occupation</th>
+                    <th scope="col">Home address</th>
                 </tr>
-              </thead>
-              <tbody id="appealers">
-              </tbody>
-            </table>
+            </thead>
+            <tbody id="appealers">
+                <tr>
+                    <td id="id1"></td>
+                    <td id="name1"></td>
+                    <td id="occupation1"></td>
+                    <td id="address1"></td>
+                </tr>
+            </tbody>
+        </table>
 
-               <a href="payment.html"> <button>Donate</button></a>
+        <a href="payment.html"> <button>Donate</button></a>
+        <br></br>
+        <a href="/"> <button>GoBack</button></a>
 
-            <p id="accountAddress" class="text-center"></p>
+        <p id="accountAddress" class="text-center"></p>
 
-
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-    <script src="js/web3.min.js"></script>
-    <script src="js/truffle-contract.js"></script>
-    <script src="js/AppDonate.js"></script>
-
-</body>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/web3.min.js"></script>
+        <script src="js/truffle-contract.js"></script>
+        <script src="js/AppDonate.js"></script>
+    </body>
 </html>
 
 <!--  <script type="text/javascript">
