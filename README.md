@@ -1,3 +1,6 @@
+Team name: BlockHeads
+Team code: baf16ef137
+
 A decentralised Donations App published on ethereum blockchain.
 We are going to start our campaign and need donation support from all Public, Corporate, individuals, Government and Educational Institutions for needy women to provide them free Sanitary Pads with awareness about using PADS and prevention from infections. Lack of menstrual hygiene management is a major reason for majority of the girls skipping schools during their periods and eventually dropping out at an early age and missing out on their education. Menstruation and menstrual hygiene related discussions are still not common in the Indian villages and across a large section of the urban society even now.
 
