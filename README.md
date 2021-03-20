@@ -1,6 +1,12 @@
 Team name: BlockHeads
+
 Team code: baf16ef137
 
+Team members: Kapil Aggarwal, Harsh Khandelwal, Pranav Sharma, Bhavy Rastogi
+
+Track: Healthcare
+
+About the project:
 A decentralised Donations App published on ethereum blockchain.
 We are going to start our campaign and need donation support from all Public, Corporate, individuals, Government and Educational Institutions for needy women to provide them free Sanitary Pads with awareness about using PADS and prevention from infections. Lack of menstrual hygiene management is a major reason for majority of the girls skipping schools during their periods and eventually dropping out at an early age and missing out on their education. Menstruation and menstrual hygiene related discussions are still not common in the Indian villages and across a large section of the urban society even now.
 
@@ -40,3 +46,7 @@ The appeal is registered on the Blockchain.
 Donors can view the appealers and choose who they wish to Donate to.
 The Donator and the appealing account should not be the same as that would mean the user is donating to themself, which defeats the whole purpose of this project.
 There will be no direct money transfer to avoid misuse of money.
+
+![img](https://ibb.co/jy10KYQ)
+![img2](https://ibb.co/S6Q8D9r)
+![img3](https://ibb.co/84TFYdY)
